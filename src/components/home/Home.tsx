@@ -1,6 +1,5 @@
-import CardCategorias from "../categorias/cardcategorias/CardCategorias"
-
 export const Home = () => {
+
     return (
         <>
             <div className="bg-gray-100 min-h-screen p-4">
@@ -12,7 +11,7 @@ export const Home = () => {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                         {/* Card 1 */}
                         <div className="bg-white border rounded-lg shadow-md p-4">
-                            <img src="/path/to/product1.jpg" alt="Produto 1" className="w-full h-40 object-cover mb-4 rounded-md" />
+                            <img src="/path/to/product1.jpg" alt="Produto 2" className="w-full h-40 object-cover mb-4 rounded-md" />
                             <h2 className="text-xl font-semibold mb-2">Produto 1</h2>
                             <p className="text-gray-700 mb-2">Descrição breve do produto.</p>
                             <span className="text-lg font-bold text-orange-600">$19.99</span>
